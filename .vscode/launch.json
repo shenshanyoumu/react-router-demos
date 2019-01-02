@@ -9,8 +9,7 @@
       "request": "launch",
       "name": "Launch via NPM",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["start:prod", "debug"],
-      "program": "${workspaceRoot}/finals/server.bundle.js",
+      "runtimeArgs": ["run-script", "start:prod"],
       "port": 9229
     }
   ]
